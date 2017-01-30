@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#111111</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="materialRed">#f50000</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#ff212121</color>
+    <color name="bg_screen2">#FF212121</color>
+    <color name="bg_screen3">#FF212121</color>
+    <color name="bg_screen4">#FF212121</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#000000</color>
+    <color name="dot_dark_screen2">#000000</color>
+    <color name="dot_dark_screen3">#000000</color>
+    <color name="dot_dark_screen4">#000000</color>
+
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#FF9E9E9E</color>
+    <color name="dot_light_screen2">#FF9E9E9E</color>
+    <color name="dot_light_screen3">#FF9E9E9E</color>
+    <color name="dot_light_screen4">#FF9E9E9E</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+</resources>
