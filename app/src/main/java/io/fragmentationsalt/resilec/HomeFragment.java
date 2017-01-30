@@ -1,12 +1,9 @@
 package io.fragmentationsalt.resilec;
 
 
-import android.*;
 import android.Manifest;
 import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
@@ -14,20 +11,15 @@ import android.support.v4.app.Fragment;
 import android.telephony.SmsManager;
 import android.test.mock.MockPackageManager;
 import android.util.Base64;
-import android.view.GestureDetector;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.Toast;
 
 import java.io.UnsupportedEncodingException;
 
 import static io.fragmentationsalt.resilec.ContactsActivity.MyPREFERENCES;
-import static io.fragmentationsalt.resilec.R.id.text;
 
 
 /**
